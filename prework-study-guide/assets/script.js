@@ -1,3 +1,8 @@
+feature/add-js
+var topics = "HTML, CSS, Git, JavaScript";
+console.log(topics);
+
+=======
 var topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
 var randomTopic = topics[Math.floor(Math.random() * topics.length)];
 
@@ -27,3 +32,4 @@ listTopics();
 
 console.log('Which topic should we study first?');
 selectTopic();
+main
